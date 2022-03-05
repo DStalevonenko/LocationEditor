@@ -1,0 +1,80 @@
+﻿{
+    "location": "HarrysFarm",
+    "level": 1,
+    "time": 100,
+    "goal": 80,
+    "goalStar": 100,
+    "catWaitFood": 30,
+    "tutorPerks": "noUpgrade, noSickness, noDrought, noCourier, noTrash, noPatience",
+    "characters":
+    [
+        {
+            "spawnTime": 5,
+            "pay": 26,
+            "groupCharacter": "Adults",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "jam",
+                    "count": 1
+                },
+                {
+                    "product": "baguette",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 10,
+            "pay": 28,
+            "groupCharacter": "Adults",
+            "groupSkin": "Farmer",
+            "requires":
+            [
+                {
+                    "product": "baguette",
+                    "count": 1
+                },
+                {
+                    "product": "jam",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 22,
+            "pay": 28,
+            "groupCharacter": "Adults",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "jam",
+                    "count": 1
+                },
+                {
+                    "product": "baguette",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 30,
+            "pay": 26,
+            "groupCharacter": "Adults",
+            "groupSkin": "Farmer",
+            "requires":
+            [
+                {
+                    "product": "baguette",
+                    "count": 1
+                },
+                {
+                    "product": "jam",
+                    "count": 1
+                }
+            ]
+        }
+    ]
+}

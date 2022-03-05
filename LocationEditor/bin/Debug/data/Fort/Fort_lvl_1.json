@@ -1,0 +1,168 @@
+﻿{
+    "location": "Fort",
+    "level": 1,
+    "time": 120,
+    "goal": 195,
+    "goalStar": 230,
+    "catWaitFood": 30,
+    "characters":
+    [
+        {
+            "spawnTime": 12,
+            "pay": 24,
+            "groupCharacter": "Adults",
+            "groupSkin": "Tourist",
+            "requires":
+            [
+                {
+                    "product": "tofu",
+                    "count": 1
+                },
+                {
+                    "product": "ciabatta",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 16,
+            "pay": 28,
+            "groupCharacter": "Mother_with_a_Child",
+            "groupSkin": "Tourist",
+            "requires":
+            [
+                {
+                    "product": "ciabatta",
+                    "count": 1
+                },
+                {
+                    "product": "tofu",
+                    "count": 1
+                }
+            ],
+            "unique_action":
+            [
+                {
+                    "on_product": "ciabatta",
+                    "timer": 1,
+                    "pointtogo": 1,
+                    "pay": 25
+                }
+            ]
+        },
+        {
+            "spawnTime": 36,
+            "pay": 24,
+            "groupCharacter": "Adults",
+            "groupSkin": "Beach",
+            "requires":
+            [
+                {
+                    "product": "postcards",
+                    "count": 1
+                },
+                {
+                    "product": "pepper",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 40,
+            "pay": 30,
+            "groupCharacter": "Troublemakers",
+            "requires":
+            [
+                {
+                    "product": "postcards",
+                    "count": 1
+                },
+                {
+                    "product": "tofu",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 60,
+            "pay": 22,
+            "groupCharacter": "Kids",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "pepper",
+                    "count": 1
+                },
+                {
+                    "product": "sandwich_tofu_cucumber",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 63,
+            "pay": 30,
+            "groupCharacter": "Elderly",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "postcards",
+                    "count": 1
+                },
+                {
+                    "product": "cucumbers",
+                    "count": 1
+                }
+            ],
+            "unique_action":
+            [
+                {
+                    "on_product": "cucumbers",
+                    "timer": 1,
+                    "pointtogo": 1,
+                    "pay": 25
+                }
+            ]
+        },
+        {
+            "spawnTime": 82,
+            "pay": 22,
+            "groupCharacter": "Teenagers",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "tofu",
+                    "count": 1
+                },
+                {
+                    "product": "sandwich_tofu_cucumber",
+                    "count": 2
+                },
+                {
+                    "product": "ciabatta",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 86,
+            "pay": 23,
+            "groupCharacter": "Adults",
+            "groupSkin": "Tourist",
+            "requires":
+            [
+                {
+                    "product": "pepper",
+                    "count": 1
+                },
+                {
+                    "product": "cucumbers",
+                    "count": 1
+                }
+            ]
+        }
+    ]
+}

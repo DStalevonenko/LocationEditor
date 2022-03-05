@@ -1,0 +1,215 @@
+﻿{
+    "location": "Windmill",
+    "level": 2,
+    "time": 130,
+    "goal": 320,
+    "goalStar": 365,
+    "catWaitFood": 30,
+    "characters":
+    [
+        {
+            "spawnTime": 12,
+            "pay": 40,
+            "groupCharacter": "Adults",
+            "groupSkin": "Beach",
+            "requires":
+            [
+                {
+                    "product": "bread",
+                    "count": 2
+                },
+                {
+                    "product": "chocolate",
+                    "count": 2
+                },
+                {
+                    "product": "cinnamon",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 15,
+            "pay": 40,
+            "groupCharacter": "Elderly",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "water",
+                    "count": 2
+                },
+                {
+                    "product": "bread",
+                    "count": 1
+                },
+                {
+                    "product": "cinnamon",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 36,
+            "pay": 40,
+            "groupCharacter": "Troublemakers",
+            "requires":
+            [
+                {
+                    "product": "bread",
+                    "count": 1
+                },
+                {
+                    "product": "water",
+                    "count": 1
+                },
+                {
+                    "product": "oranges",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 40,
+            "pay": 36,
+            "groupCharacter": "Kids",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "cinnamon",
+                    "count": 2
+                },
+                {
+                    "product": "oranges",
+                    "count": 2
+                },
+                {
+                    "product": "water",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 44,
+            "pay": 40,
+            "groupCharacter": "Troublemakers",
+            "requires":
+            [
+                {
+                    "product": "chocolate",
+                    "count": 1
+                },
+                {
+                    "product": "oranges",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 66,
+            "pay": 36,
+            "groupCharacter": "Teenagers",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "oranges",
+                    "count": 2
+                },
+                {
+                    "product": "water",
+                    "count": 1
+                },
+                {
+                    "product": "bread",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 70,
+            "pay": 36,
+            "groupCharacter": "Adults",
+            "groupSkin": "Tourist",
+            "requires":
+            [
+                {
+                    "product": "bread",
+                    "count": 1
+                },
+                {
+                    "product": "cinnamon",
+                    "count": 1
+                },
+                {
+                    "product": "oranges",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 74,
+            "pay": 40,
+            "groupCharacter": "Adults",
+            "groupSkin": "Beach",
+            "requires":
+            [
+                {
+                    "product": "oranges",
+                    "count": 2
+                },
+                {
+                    "product": "water",
+                    "count": 1
+                },
+                {
+                    "product": "chocolate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 94,
+            "pay": 40,
+            "groupCharacter": "Mother_with_a_Child",
+            "groupSkin": "Tourist",
+            "requires":
+            [
+                {
+                    "product": "bread",
+                    "count": 2
+                },
+                {
+                    "product": "oranges",
+                    "count": 1
+                },
+                {
+                    "product": "oranges",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 98,
+            "pay": 42,
+            "groupCharacter": "Adults",
+            "groupSkin": "Tourist",
+            "requires":
+            [
+                {
+                    "product": "cinnamon",
+                    "count": 2
+                },
+                {
+                    "product": "oranges",
+                    "count": 2
+                },
+                {
+                    "product": "bread",
+                    "count": 1
+                }
+            ]
+        }
+    ]
+}

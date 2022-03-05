@@ -1,0 +1,122 @@
+﻿{
+    "location": "HarrysFarm",
+    "level": 2,
+    "time": 105,
+    "goal": 85,
+    "goalStar": 110,
+    "catWaitFood": 30,
+    "tutorPerks": "noUpgrade, noSickness, noDrought, noCourier, noTrash",
+    "characters":
+    [
+        {
+            "spawnTime": 5,
+            "pay": 20,
+            "groupCharacter": "Adults",
+            "groupSkin": "Farmer",
+            "requires":
+            [
+                {
+                    "product": "cupcakes",
+                    "count": 1
+                },
+                {
+                    "product": "jam",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 7,
+            "pay": 20,
+            "groupCharacter": "Adults",
+            "groupSkin": "Farmer",
+            "requires":
+            [
+                {
+                    "product": "baguette",
+                    "count": 1
+                },
+                {
+                    "product": "cupcakes",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 35,
+            "pay": 20,
+            "groupCharacter": "Adults",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "cupcakes",
+                    "count": 1
+                },
+                {
+                    "product": "jam",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 44,
+            "pay": 22,
+            "groupCharacter": "Adults",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "jam",
+                    "count": 1
+                },
+                {
+                    "product": "cupcakes",
+                    "count": 1
+                },
+                {
+                    "product": "baguette",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 55,
+            "pay": 20,
+            "groupCharacter": "Adults",
+            "groupSkin": "Farmer",
+            "requires":
+            [
+                {
+                    "product": "jam",
+                    "count": 1
+                },
+                {
+                    "product": "baguette",
+                    "count": 1
+                },
+                {
+                    "product": "jam",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 60,
+            "pay": 20,
+            "groupCharacter": "Adults",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "cupcakes",
+                    "count": 1
+                },
+                {
+                    "product": "jam",
+                    "count": 1
+                }
+            ]
+        }
+    ]
+}

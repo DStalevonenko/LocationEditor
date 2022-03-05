@@ -1,0 +1,155 @@
+﻿{
+    "location": "Market",
+    "level": 2,
+    "time": 130,
+    "goal": 120,
+    "goalStar": 150,
+    "catWaitFood": 20,
+    "characters":
+    [
+        {
+            "spawnTime": 12,
+            "pay": 22,
+            "groupCharacter": "Elderly",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "water",
+                    "count": 2
+                },
+                {
+                    "product": "cheese",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 14,
+            "pay": 15,
+            "groupCharacter": "Kids",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "tea_bag",
+                    "count": 1
+                },
+                {
+                    "product": "cheese",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 40,
+            "pay": 19,
+            "groupCharacter": "Elderly",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "cheese",
+                    "count": 2
+                },
+                {
+                    "product": "water",
+                    "count": 2
+                }
+            ],
+            "unique_action":
+            [
+                {
+                    "on_product": "water",
+                    "timer": 1,
+                    "pointtogo": 3,
+                    "pay": 30
+                }
+            ]
+        },
+        {
+            "spawnTime": 70,
+            "pay": 16,
+            "groupCharacter": "Adults",
+            "groupSkin": "Tourist",
+            "requires":
+            [
+                {
+                    "product": "cheese",
+                    "count": 1
+                },
+                {
+                    "product": "water",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 75,
+            "pay": 15,
+            "groupCharacter": "Thieves",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "lemon",
+                    "count": 2
+                },
+                {
+                    "product": "cheese",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 80,
+            "pay": 15,
+            "groupCharacter": "Troublemakers",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "lemon",
+                    "count": 2
+                },
+                {
+                    "product": "water",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 90,
+            "pay": 24,
+            "groupCharacter": "Adults",
+            "groupSkin": "Business",
+            "requires":
+            [
+                {
+                    "product": "tea_bag",
+                    "count": 2
+                },
+                {
+                    "product": "cheese",
+                    "count": 2
+                },
+                {
+                    "product": "lemon",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 52,
+            "pay": 10,
+            "groupCharacter": "Dog",
+            "requires":
+            [
+                {
+                    "product": "bowl",
+                    "count": 1
+                }
+            ]
+        }
+    ]
+}

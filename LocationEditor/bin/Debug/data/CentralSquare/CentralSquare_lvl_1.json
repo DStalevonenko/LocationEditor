@@ -1,0 +1,165 @@
+﻿{
+    "location": "CentralSquare",
+    "level": 1,
+    "time": 120,
+    "goal": 180,
+    "goalStar": 215,
+    "catWaitFood": 30,
+    "characters":
+    [
+        {
+            "spawnTime": 1,
+            "pay": 0,
+            "groupCharacter": "Dog",
+            "requires":
+            [
+                {
+                    "product": "bowl",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 12,
+            "pay": 30,
+            "groupCharacter": "Adults",
+            "groupSkin": "Farmer",
+            "requires":
+            [
+                {
+                    "product": "twine",
+                    "count": 1
+                },
+                {
+                    "product": "scoops",
+                    "count": 1
+                },
+                {
+                    "product": "gnomes",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 16,
+            "pay": 32,
+            "groupCharacter": "Elderly",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "gnomes",
+                    "count": 1
+                },
+                {
+                    "product": "scoops",
+                    "count": 1
+                },
+                {
+                    "product": "twine",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 40,
+            "pay": 30,
+            "groupCharacter": "Troublemakers",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "scoops",
+                    "count": 1
+                },
+                {
+                    "product": "gnomes",
+                    "count": 1
+                },
+                {
+                    "product": "twine",
+                    "count": 1
+                },
+                {
+                    "product": "seedlings",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 44,
+            "pay": 27,
+            "groupCharacter": "Mother_with_a_Child",
+            "groupSkin": "Farmer",
+            "requires":
+            [
+                {
+                    "product": "seedlings",
+                    "count": 1
+                },
+                {
+                    "product": "gnomes",
+                    "count": 1
+                },
+                {
+                    "product": "twine",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 66,
+            "pay": 50,
+            "groupCharacter": "Celebrity",
+            "requires":
+            [
+                {
+                    "product": "seedlings",
+                    "count": 1
+                },
+                {
+                    "product": "twine",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 90,
+            "pay": 34,
+            "groupCharacter": "Elderly",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "gnomes",
+                    "count": 1
+                },
+                {
+                    "product": "seedlings",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 93,
+            "pay": 23,
+            "groupCharacter": "Adults",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "seedlings",
+                    "count": 1
+                },
+                {
+                    "product": "scoops",
+                    "count": 1
+                },
+                {
+                    "product": "twine",
+                    "count": 1
+                }
+            ]
+        }
+    ]
+}

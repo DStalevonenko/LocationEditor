@@ -1,0 +1,195 @@
+﻿{
+    "location": "Fort",
+    "level": 2,
+    "time": 130,
+    "goal": 240,
+    "goalStar": 280,
+    "catWaitFood": 20,
+    "characters":
+    [
+        {
+            "spawnTime": 12,
+            "pay": 32,
+            "groupCharacter": "Mother_with_a_Child",
+            "groupSkin": "Tourist",
+            "requires":
+            [
+                {
+                    "product": "muesli",
+                    "count": 2
+                },
+                {
+                    "product": "ciabatta",
+                    "count": 1
+                },
+                {
+                    "product": "postcards",
+                    "count": 1
+                }
+            ],
+            "unique_action":
+            [
+                {
+                    "on_product": "ciabatta",
+                    "timer": 1,
+                    "pointtogo": 1,
+                    "pay": 25
+                }
+            ]
+        },
+        {
+            "spawnTime": 16,
+            "pay": 28,
+            "groupCharacter": "Adults",
+            "groupSkin": "Tourist",
+            "requires":
+            [
+                {
+                    "product": "tofu",
+                    "count": 1
+                },
+                {
+                    "product": "ciabatta",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 37,
+            "pay": 0,
+            "groupCharacter": "Dog",
+            "requires":
+            [
+                {
+                    "product": "bowl",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 40,
+            "pay": 32,
+            "groupCharacter": "Adults",
+            "groupSkin": "Beach",
+            "requires":
+            [
+                {
+                    "product": "cucumbers",
+                    "count": 1
+                },
+                {
+                    "product": "muesli",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 44,
+            "pay": 30,
+            "groupCharacter": "Teenagers",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "postcards",
+                    "count": 1
+                },
+                {
+                    "product": "tofu",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 68,
+            "pay": 22,
+            "groupCharacter": "Kids",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "muesli",
+                    "count": 2
+                },
+                {
+                    "product": "sandwich_tofu_cucumber",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 72,
+            "pay": 50,
+            "groupCharacter": "Celebrity",
+            "requires":
+            [
+                {
+                    "product": "muesli",
+                    "count": 1
+                },
+                {
+                    "product": "tofu",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 76,
+            "pay": 30,
+            "groupCharacter": "Troublemakers",
+            "requires":
+            [
+                {
+                    "product": "ciabatta",
+                    "count": 1
+                },
+                {
+                    "product": "tofu",
+                    "count": 1
+                },
+                {
+                    "product": "cucumbers",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 98,
+            "pay": 30,
+            "groupCharacter": "Elderly",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "sandwich_tofu_cucumber",
+                    "count": 1
+                },
+                {
+                    "product": "muesli",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 102,
+            "pay": 24,
+            "groupCharacter": "Kids",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "ciabatta",
+                    "count": 1
+                },
+                {
+                    "product": "pepper",
+                    "count": 1
+                },
+                {
+                    "product": "muesli",
+                    "count": 1
+                }
+            ]
+        }
+    ]
+}

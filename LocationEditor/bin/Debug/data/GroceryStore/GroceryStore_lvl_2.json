@@ -1,0 +1,194 @@
+﻿{
+    "location": "GroceryStore",
+    "level": 2,
+    "time": 130,
+    "goal": 145,
+    "goalStar": 180,
+    "catWaitFood": 30,
+    "characters":
+    [
+        {
+            "spawnTime": 12,
+            "pay": 22,
+            "groupCharacter": "Elderly",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "nut",
+                    "count": 1
+                },
+                {
+                    "product": "mushroom",
+                    "count": 1
+                },
+                {
+                    "product": "eggs",
+                    "count": 2
+                }
+            ],
+            "unique_action":
+            [
+                {
+                    "on_product": "nut",
+                    "timer": 1,
+                    "pointtogo": 2,
+                    "pay": 20
+                }
+            ]
+        },
+        {
+            "spawnTime": 16,
+            "pay": 25,
+            "groupCharacter": "Kids",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "rice",
+                    "count": 1
+                },
+                {
+                    "product": "eggs",
+                    "count": 1
+                },
+                {
+                    "product": "mushroom",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 19,
+            "pay": 0,
+            "groupCharacter": "Dog",
+            "requires":
+            [
+                {
+                    "product": "bowl",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 42,
+            "pay": 24,
+            "groupCharacter": "Thieves",
+            "requires":
+            [
+                {
+                    "product": "eggs",
+                    "count": 2
+                },
+                {
+                    "product": "mushroom",
+                    "count": 1
+                },
+                {
+                    "product": "rice",
+                    "count": 2
+                },
+                {
+                    "product": "olives",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 46,
+            "pay": 23,
+            "groupCharacter": "Mother_with_a_Child",
+            "groupSkin": "Tourist",
+            "requires":
+            [
+                {
+                    "product": "nut",
+                    "count": 1
+                },
+                {
+                    "product": "rice",
+                    "count": 1
+                },
+                {
+                    "product": "mushroom",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 50,
+            "pay": 22,
+            "groupCharacter": "Teenagers",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "mushroom",
+                    "count": 2
+                },
+                {
+                    "product": "eggs",
+                    "count": 1
+                },
+                {
+                    "product": "nut",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 74,
+            "pay": 15,
+            "groupCharacter": "Celebrity",
+            "requires":
+            [
+                {
+                    "product": "olives",
+                    "count": 1
+                },
+                {
+                    "product": "nut",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 85,
+            "pay": 22,
+            "groupCharacter": "Teenagers",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "rice",
+                    "count": 2
+                },
+                {
+                    "product": "nut",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 90,
+            "pay": 20,
+            "groupCharacter": "Elderly",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "olives",
+                    "count": 1
+                },
+                {
+                    "product": "mushroom",
+                    "count": 1
+                },
+                {
+                    "product": "nut",
+                    "count": 1
+                }
+            ]
+        }
+    ]
+}

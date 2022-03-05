@@ -1,0 +1,195 @@
+﻿{
+    "location": "CentralSquare",
+    "level": 2,
+    "time": 130,
+    "goal": 205,
+    "goalStar": 245,
+    "catWaitFood": 30,
+    "characters":
+    [
+        {
+            "spawnTime": 14,
+            "pay": 30,
+            "groupCharacter": "Kids",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "wateringcan",
+                    "count": 2
+                },
+                {
+                    "product": "gnomes",
+                    "count": 1
+                },
+                {
+                    "product": "scoops",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 17,
+            "pay": 28,
+            "groupCharacter": "Kids",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "twine",
+                    "count": 1
+                },
+                {
+                    "product": "scoops",
+                    "count": 1
+                },
+                {
+                    "product": "wateringcan",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 38,
+            "pay": 25,
+            "groupCharacter": "Teenagers",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "twine",
+                    "count": 1
+                },
+                {
+                    "product": "seedlings",
+                    "count": 1
+                },
+                {
+                    "product": "wateringcan",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 62,
+            "pay": 30,
+            "groupCharacter": "Thieves",
+            "requires":
+            [
+                {
+                    "product": "gnomes",
+                    "count": 1
+                },
+                {
+                    "product": "twine",
+                    "count": 1
+                },
+                {
+                    "product": "seedlings",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 66,
+            "pay": 30,
+            "groupCharacter": "Mother_with_a_Child",
+            "groupSkin": "Farmer",
+            "requires":
+            [
+                {
+                    "product": "seedlings",
+                    "count": 1
+                },
+                {
+                    "product": "wateringcan",
+                    "count": 2
+                }
+            ],
+            "unique_action":
+            [
+                {
+                    "on_product": "wateringcan",
+                    "timer": 1,
+                    "pointtogo": 1,
+                    "pay": 30
+                }
+            ]
+        },
+        {
+            "spawnTime": 70,
+            "pay": 30,
+            "groupCharacter": "Teenagers",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "seedlings",
+                    "count": 1
+                },
+                {
+                    "product": "wateringcan",
+                    "count": 1
+                },
+                {
+                    "product": "seedlings",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 78,
+            "pay": 0,
+            "groupCharacter": "Dog",
+            "requires":
+            [
+                {
+                    "product": "bowl",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 94,
+            "pay": 32,
+            "groupCharacter": "Teenagers",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "gnomes",
+                    "count": 1
+                },
+                {
+                    "product": "scoops",
+                    "count": 1
+                },
+                {
+                    "product": "wateringcan",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 98,
+            "pay": 28,
+            "groupCharacter": "Kids",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "seedlings",
+                    "count": 1
+                },
+                {
+                    "product": "twine",
+                    "count": 1
+                },
+                {
+                    "product": "wateringcan",
+                    "count": 1
+                }
+            ]
+        }
+    ]
+}

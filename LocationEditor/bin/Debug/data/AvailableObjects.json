@@ -1,0 +1,280 @@
+[
+    {
+        "location": "HarrysFarm",
+        "objects":
+        [
+            {
+                "sceneObject": "baguette",
+                "level": 1
+            },
+            {
+                "sceneObject": "jam",
+                "level": 1
+            },
+            {
+                "sceneObject": "cupcakes",
+                "level": 2
+            },
+            {
+                "sceneObject": "book",
+                "level": 3
+            },
+            {
+                "sceneObject": "carrot",
+                "level": 3
+            },
+            {
+                "sceneObject": "juice_carrot",
+                "level": 5
+            },
+            {
+                "sceneObject": "water",
+                "level": 6
+            },
+            {
+                "sceneObject": "avocado",
+                "level": 7
+            },
+            {
+                "sceneObject": "milk",
+                "level": 9
+            },
+            {
+                "sceneObject": "celery",
+                "level": 11
+            },
+            {
+                "sceneObject": "bowl",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "location": "Market",
+        "objects":
+        [
+            {
+                "sceneObject": "tea_bag",
+                "level": 1
+            },
+            {
+                "sceneObject": "cheese",
+                "level": 1
+            },
+            {
+                "sceneObject": "water",
+                "level": 2
+            },
+            {
+                "sceneObject": "lemon",
+                "level": 1
+            },
+            {
+                "sceneObject": "corn",
+                "level": 4
+            },
+            {
+                "sceneObject": "tea_drink",
+                "level": 5
+            },
+            {
+                "sceneObject": "canned_tomatoes",
+                "level": 6
+            },
+            {
+                "sceneObject": "marshmallows",
+                "level": 8
+            },
+            {
+                "sceneObject": "watermelon",
+                "level": 10
+            },
+            {
+                "sceneObject": "sesame_paste",
+                "level": 12
+            },
+            {
+                "sceneObject": "pome_granate",
+                "level": 14
+            },
+            {
+                "sceneObject": "bowl",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "location": "GroceryStore",
+        "objects":
+        [
+            {
+                "sceneObject": "rice",
+                "level": 1
+            },
+            {
+                "sceneObject": "mushroom",
+                "level": 1
+            },
+            {
+                "sceneObject": "eggs",
+                "level": 1
+            },
+            {
+                "sceneObject": "cauliflower",
+                "level": 1
+            },
+            {
+                "sceneObject": "nut",
+                "level": 2
+            },
+            {
+                "sceneObject": "olive_oil",
+                "level": 3
+            },
+            {
+                "sceneObject": "tomatoes",
+                "level": 4
+            },
+            {
+                "sceneObject": "nuts",
+                "level": 6
+            },
+            {
+                "sceneObject": "drink",
+                "level": 8
+            },
+            {
+                "sceneObject": "olives",
+                "level": 12
+            },
+            {
+                "sceneObject": "bowl",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "location": "ChildrensStore",
+        "objects":
+        [
+            {
+                "sceneObject": "feeding_bottle",
+                "level": 1
+            },
+            {
+                "sceneObject": "yogurt",
+                "level": 1
+            },
+            {
+                "sceneObject": "pears",
+                "level": 1
+            },
+            {
+                "sceneObject": "cereals",
+                "level": 2
+            },
+            {
+                "sceneObject": "raspberry",
+                "level": 4
+            },
+            {
+                "sceneObject": "cocktail",
+                "level": 5
+            },
+            {
+                "sceneObject": "pyramids",
+                "level": 7
+            },
+            {
+                "sceneObject": "mashed",
+                "level": 12
+            },
+            {
+                "sceneObject": "flakes",
+                "level": 1
+            },
+            {
+                "sceneObject": "cabbages",
+                "level": 14
+            },
+            {
+                "sceneObject": "bowl",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "location": "CentralSquare",
+        "objects":
+        [
+            {
+                "sceneObject": "gnomes",
+                "level": 1
+            },
+            {
+                "sceneObject": "scoops",
+                "level": 1
+            },
+            {
+                "sceneObject": "twine",
+                "level": 1
+            },
+            {
+                "sceneObject": "seedlings",
+                "level": 1
+            },
+            {
+                "sceneObject": "wateringcan",
+                "level": 2
+            },
+            {
+                "sceneObject": "thujs",
+                "level": 4
+            },
+            {
+                "sceneObject": "pot",
+                "level": 6
+            },
+            {
+                "sceneObject": "bonsai_device",
+                "level": 8
+            },
+            {
+                "sceneObject": "decorbush",
+                "level": 10
+            },
+            {
+                "sceneObject": "lamp",
+                "level": 12
+            },
+            {
+                "sceneObject": "roses",
+                "level": 14
+            },
+            {
+                "sceneObject": "bowl",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "location": "Fort",
+        "objects":
+        [
+            {
+                "sceneObject": "bowl",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "location": "Windmill",
+        "objects":
+        [
+            {
+                "sceneObject": "bowl",
+                "level": 1
+            }
+        ]
+    }
+]

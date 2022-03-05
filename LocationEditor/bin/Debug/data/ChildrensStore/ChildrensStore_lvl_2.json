@@ -1,0 +1,182 @@
+﻿{
+    "location": "ChildrensStore",
+    "level": 2,
+    "time": 130,
+    "goal": 170,
+    "goalStar": 205,
+    "catWaitFood": 20,
+    "characters":
+    [
+        {
+            "spawnTime": 12,
+            "pay": 26,
+            "groupCharacter": "Elderly",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "yogurt",
+                    "count": 1
+                },
+                {
+                    "product": "cereals",
+                    "count": 1
+                },
+                {
+                    "product": "feeding_bottle",
+                    "count": 2
+                }
+            ],
+            "unique_action":
+            [
+                {
+                    "on_product": "yogurt",
+                    "timer": 1,
+                    "pointtogo": 2,
+                    "pay": 20
+                }
+            ]
+        },
+        {
+            "spawnTime": 16,
+            "pay": 25,
+            "groupCharacter": "Kids",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "flakes",
+                    "count": 1
+                },
+                {
+                    "product": "feeding_bottle",
+                    "count": 1
+                },
+                {
+                    "product": "cereals",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 42,
+            "pay": 25,
+            "groupCharacter": "Thieves",
+            "requires":
+            [
+                {
+                    "product": "feeding_bottle",
+                    "count": 1
+                },
+                {
+                    "product": "cereals",
+                    "count": 2
+                },
+                {
+                    "product": "flakes",
+                    "count": 2
+                },
+                {
+                    "product": "pears",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 46,
+            "pay": 27,
+            "groupCharacter": "Mother_with_a_Child",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "yogurt",
+                    "count": 1
+                },
+                {
+                    "product": "flakes",
+                    "count": 1
+                },
+                {
+                    "product": "cereals",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 50,
+            "pay": 22,
+            "groupCharacter": "Teenagers",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "cereals",
+                    "count": 2
+                },
+                {
+                    "product": "feeding_bottle",
+                    "count": 1
+                },
+                {
+                    "product": "yogurt",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 74,
+            "pay": 40,
+            "groupCharacter": "Celebrity",
+            "requires":
+            [
+                {
+                    "product": "pears",
+                    "count": 1
+                },
+                {
+                    "product": "yogurt",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 85,
+            "pay": 22,
+            "groupCharacter": "Teenagers",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "flakes",
+                    "count": 2
+                },
+                {
+                    "product": "yogurt",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 90,
+            "pay": 25,
+            "groupCharacter": "Elderly",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "pears",
+                    "count": 1
+                },
+                {
+                    "product": "cereals",
+                    "count": 1
+                },
+                {
+                    "product": "yogurt",
+                    "count": 1
+                }
+            ]
+        }
+    ]
+}

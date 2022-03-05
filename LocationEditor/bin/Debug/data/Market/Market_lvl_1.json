@@ -1,0 +1,105 @@
+﻿{
+    "location": "Market",
+    "level": 1,
+    "time": 120,
+    "goal": 105,
+    "goalStar": 130,
+    "catWaitFood": 30,
+    "characters":
+    [
+        {
+            "spawnTime": 6,
+            "pay": 26,
+            "groupCharacter": "Elderly",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "tea_bag",
+                    "count": 2
+                },
+                {
+                    "product": "cheese",
+                    "count": 2
+                }
+            ],
+            "unique_action":
+            [
+                {
+                    "on_product": "tea_bag",
+                    "timer": 1,
+                    "pointtogo": 2,
+                    "pay": 25
+                }
+            ]
+        },
+        {
+            "spawnTime": 50,
+            "pay": 19,
+            "groupCharacter": "Teenagers",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "tea_bag",
+                    "count": 1
+                },
+                {
+                    "product": "cheese",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 57,
+            "pay": 22,
+            "groupCharacter": "Kids",
+            "groupSkin": "Universal",
+            "requires":
+            [
+                {
+                    "product": "lemon",
+                    "count": 1
+                },
+                {
+                    "product": "tea_bag",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "spawnTime": 74,
+            "pay": 20,
+            "groupCharacter": "Teenagers",
+            "groupSkin": "Casual",
+            "requires":
+            [
+                {
+                    "product": "cheese",
+                    "count": 2
+                },
+                {
+                    "product": "lemon",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "spawnTime": 79,
+            "pay": 20,
+            "groupCharacter": "Adults",
+            "groupSkin": "Business",
+            "requires":
+            [
+                {
+                    "product": "cheese",
+                    "count": 1
+                },
+                {
+                    "product": "lemon",
+                    "count": 1
+                }
+            ]
+        }
+    ]
+}
